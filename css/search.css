@@ -1,0 +1,4 @@
+#container_head { }
+#query { width:80%; border:3px #dedede solid; }
+#container { }
+#container .loader { display:none; }
