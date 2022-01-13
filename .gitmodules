@@ -1,0 +1,3 @@
+[submodule "lib/choi-trie"]
+	path = lib/choi-trie
+	url = https://github.com/designe/choi-trie.js

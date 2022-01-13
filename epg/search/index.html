@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>SEARCH for Korean Electronic Program Guide</title>
+    <meta name='viewport' content='width=device-width, minimal-ui, initial-scale=1, user-scalable=no'>
+    <meta property='og:url' content='http://api.jbear.co/epg/search' />
+    <meta property='og:title' content='KOREAN TV PROGRAM SEARCH' />
+    <meta property='og:type' content='website' />
+    <meta property='og:description' content='EPG Service for Korean' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/search.js"></script>
+  </head>
+  <body>
+    <center>
+      <p>KOREAN EPG SEARCH</p>
+      <input type='text' id='query' name='query' onchange='search(this.value)'/>
+      <div id='container_head'>
+      </div>
+      <div id='container'>
+        <div class='loader'>
+          <img src = 'images/loading.gif' />
+        </div>
+      </div>
+    </center>
+  </body>
+
+  </html>
